@@ -10,8 +10,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class RoutineScheduler {
 
-    @Scheduled(fixedRateString = "5", timeUnit = TimeUnit.MINUTES)
-    @SchedulerLock(name = "RoutineScheduler.scheduledTask", lockAtLeastFor = "PT5M", lockAtMostFor = "PT10M")
+    @Scheduled(fixedRateString = "15", timeUnit = TimeUnit.SECONDS)
+    @SchedulerLock(name = "RoutineScheduler.scheduledTask", lockAtLeastFor = "PT15S", lockAtMostFor = "PT30S")
     public void scheduledTask() {
         System.out.println("Scheduler open: " + LocalDateTime.now());
     }
