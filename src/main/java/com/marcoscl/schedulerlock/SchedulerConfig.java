@@ -1,4 +1,4 @@
-package com.marcoscl.scheduledlock;
+package com.marcoscl.schedulerlock;
 
 import javax.sql.DataSource;
 

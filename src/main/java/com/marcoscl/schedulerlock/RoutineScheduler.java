@@ -1,4 +1,4 @@
-package com.marcoscl.scheduledlock;
+package com.marcoscl.schedulerlock;
 
 import java.time.LocalDateTime;
 import java.util.concurrent.TimeUnit;

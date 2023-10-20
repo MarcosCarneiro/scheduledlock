@@ -1,4 +1,4 @@
-package com.marcoscl.scheduledlock;
+package com.marcoscl.schedulerlock;
 
 import net.javacrumbs.shedlock.spring.annotation.EnableSchedulerLock;
 import org.springframework.boot.SpringApplication;
